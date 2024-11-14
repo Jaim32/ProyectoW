@@ -2,34 +2,42 @@
 .header {
   background-color: #1b1b1b;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 20px 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
+  
+  width: 97.9vw;
 }
 
 .logo {
   font-size: 1.5rem;
   color: #0C8C64;
+  
 }
 
 .nav a {
   margin: 0 15px;
   color: white;
   text-decoration: none;
+  padding: 10px;
+  
+ 
+  
+  
 }
 
 .login-btn,
 .register-btn {
   background: none;
-  border: none;
   color: white;
+  border-radius: 5px;
   cursor: pointer;
+  margin-right: 15px;
 }
+.login-btn{margin-left: 15px;}
 
 .register-btn {
   background-color: #00A86D;
-  padding: 5px 10px;
   border-radius: 5px;
 }
