@@ -1,123 +1,104 @@
 /* Estilos generales de la página de bienvenida */
 .welcome-page {
-    display: flex;
-    flex-direction: column;
-    height: 46.6vw; /* Asegura que el contenedor principal ocupe toda la pantalla */
-    background-color: white;
-    margin: 0;
-  }
+  display: flex;
+  flex-direction: column;
+  height: 45 ;
+  max-height: 100vh;
+  background-color: white;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+/* Contenedor principal dividido en dos columnas */
+.welcome-content-container {
+  display: flex;
+  flex-direction: column; /* Para pantalla pequeña, por defecto en columna */
+  width: 95vw;
+  height: 100%;
   
-  /* Contenedor principal dividido en dos columnas */
+}
+
+/* Contenedor de la imagen */
+.welcome-image-container {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.welcome-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Contenedor de contenido principal */
+.welcome-content-father {
+  padding: 16.8vh 0 0vh 10vw;
+}
+
+/* Contenido de bienvenida */
+.welcome-content {
+  width: 100vw;
+  height: 100vh;
+  max-width: 500px;
+  max-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4f746e;
+  color: white;
+  padding: 4vh;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.welcome-content h2 {
+  font-size: 2rem;
+  margin-bottom: 2vh;
+  color: #1b1b1b;
+  text-align: center;
+}
+
+.welcome-content p {
+  font-size: 1rem;
+  max-width: 90%;
+  margin: 0 auto 2vh;
+  color: #1b1b1b;
+  text-align: center;
+}
+
+/* Botones */
+.welcome-btn {
+  width: 70%;
+  padding: 1vh 0;
+  margin: 1vh;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: white;
+  color: black;
+}
+
+.register-btn {
+  background-color: #43B93A;
+  color: white;
+}
+
+/* Adaptación para pantallas grandes */
+@media (min-width: 768px) {
   .welcome-content-container {
-    display: flex;
-    width: 99vw; /* Ocupa todo el ancho de la pantalla */
-    height: 100%; /* Ocupa todo el alto del contenedor principal */
+      flex-direction: row;
   }
-  
-  /* Contenedor de la imagen, ocupa el 50% de la pantalla */
   .welcome-image-container {
-    width: 50vw; /* Ocupa la mitad izquierda de la pantalla */
-    height: 100%; /* Ocupa toda la altura */
-    overflow: hidden; /* Oculta el exceso de imagen si es necesario */
+      width: 50vw;
+      height: 100vh;
   }
-  
-  .welcome-image {
-    width: 100%;
-    height: 100%;
-    
-    object-fit: cover; /* La imagen cubre el contenedor sin deformarse */
-  }
-  .welcome-content-father{
-    padding: 9.5vw 0 7vw 12vw;
-  }
-  /* Contenido de bienvenida, ocupa el 50% de la pantalla */
   .welcome-content {
-    width: 20vw; /* Ocupa la mitad derecha de la pantalla */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #4f746e;
-    color: white;
-    padding: 70px;
-    border-radius: 15px;
-    
+      width: 50vw;
   }
-  
-  .welcome-content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #1b1b1b;
-    text-align: center;
-  }
-  
-  .welcome-content p {
-    font-size: 1.2rem;
-    max-width: 300px;
-    margin: 0 auto 30px;
-    color: #1b1b1b;
-    text-align: center;
-  }
-  
-  /* Estilos de los botones */
-  .welcome-btn {
-    width: 200px;
-    padding: 10px;
-    margin: 10px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .login-btn {
-    background-color: white;
-    color: black;
-  }
-  
-  .register-btn {
-    background-color: #43B93A;
-    color: white;
-  }
-  
-  
-  
-  .welcome-content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #1b1b1b;
-    text-align: center;
-  }
-  
-  .welcome-content p {
-    font-size: 1.2rem;
-    max-width: 300px;
-    margin: 0 auto 30px;
-    color: #1b1b1b;
-    text-align: center;
-  }
-  
-  /* Estilos de los botones 
-  .welcome-btn {
-    width: 200px;
-    padding: 10px;
-    margin: 10px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .login-btn {
-    background-color: white;
-    color: black;
-  }
-  
-  .register-btn {
-    background-color: #43B93A;
-    color: white;
-  }
-  
-  */
-  
-  
+}
