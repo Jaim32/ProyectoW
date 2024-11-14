@@ -70,6 +70,10 @@
   }
   
   /* Botones */
+  
+  
+
+  /*
   .welcome-btn {
     width: 70%;
     padding: 1vh 0;
@@ -88,8 +92,8 @@
   .register-btn {
     background-color: #43B93A;
     color: white;
-  }
-  
+  }*/
+
   /* Estilos para el formulario de inicio de sesión */
   .login-form {
     display: flex;
@@ -120,6 +124,7 @@
   .submit-btn {
     background-color: #2c362f;
     color: white;
+    height: 20%;
   }
   
   
