@@ -22,7 +22,7 @@ function WelcomePage() {
         
         <div className="welcome-image-container">
           <img src={pizzaImage} alt="Deliciosa pizza" className="welcome-image" />
-        </div> <div><div className="welcome-content">
+        </div> <div className="welcome-content-father"><div className="welcome-content">
          
           <h2>Bienvenidos</h2>
           <p>Bienvenido a SeeToEat donde puedes explorar tus opciones para comer</p>

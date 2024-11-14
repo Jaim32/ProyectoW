@@ -2,7 +2,7 @@
 .welcome-page {
     display: flex;
     flex-direction: column;
-    height: 100vh; /* Asegura que el contenedor principal ocupe toda la pantalla */
+    height: 46.6vw; /* Asegura que el contenedor principal ocupe toda la pantalla */
     background-color: white;
     margin: 0;
   }
@@ -10,7 +10,7 @@
   /* Contenedor principal dividido en dos columnas */
   .welcome-content-container {
     display: flex;
-    width: 100vw; /* Ocupa todo el ancho de la pantalla */
+    width: 99vw; /* Ocupa todo el ancho de la pantalla */
     height: 100%; /* Ocupa todo el alto del contenedor principal */
   }
   
@@ -24,21 +24,24 @@
   .welcome-image {
     width: 100%;
     height: 100%;
+    
     object-fit: cover; /* La imagen cubre el contenedor sin deformarse */
   }
-  
+  .welcome-content-father{
+    padding: 9.5vw 0 7vw 12vw;
+  }
   /* Contenido de bienvenida, ocupa el 50% de la pantalla */
   .welcome-content {
-    width: 50vw; /* Ocupa la mitad derecha de la pantalla */
+    width: 20vw; /* Ocupa la mitad derecha de la pantalla */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #4f746e;
     color: white;
-    padding: 40px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    padding: 70px;
+    border-radius: 15px;
+    
   }
   
   .welcome-content h2 {
