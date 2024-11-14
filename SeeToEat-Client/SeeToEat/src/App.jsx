@@ -6,6 +6,7 @@ import UserProfile_user from './pages/UserProfile_usear';
 import UserProfile from './pages/UserProfile';
 import LoginPage from './pages/LogIn';
 import RegistroPage from './pages/Registro';
+import RestaurantPage from './pages/Restaurants';
 import RegisterLocalPage from './pages/RegisterLocalPage';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegistroPage />} />
         <Route path="/localR" element={<RegisterLocalPage />} />
+        <Route path="/restaurant" element={<RestaurantPage />} />
       </Routes>
     </Router>
   );
