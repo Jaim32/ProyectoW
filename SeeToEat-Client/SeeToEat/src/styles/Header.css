@@ -1,0 +1,35 @@
+/* Header */
+.header {
+  background-color: #1b1b1b;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #0C8C64;
+}
+
+.nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.login-btn,
+.register-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.register-btn {
+  background-color: #00A86D;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

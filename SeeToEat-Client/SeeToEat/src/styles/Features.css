@@ -1,0 +1,7 @@
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    width: auto;
+    padding: 5vw 10vw;
+  }

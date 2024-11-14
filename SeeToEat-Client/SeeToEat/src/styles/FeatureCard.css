@@ -1,0 +1,23 @@
+.feature-card {
+    background-color: #bbbbbb;
+    padding: 20px;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+  .feature-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  .feature-image {
+    width: 50px; /* Ajusta el tamaño según lo necesites */
+    height: 50px;
+  }
+  
