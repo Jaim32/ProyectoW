@@ -1,0 +1,33 @@
+.user-info {
+    display: flex;
+    align-items: center;
+    background-color: #4f746e;
+    padding: 20px;
+    width: 100%;
+    justify-content: flex-start; /* Mueve el contenido hacia la derecha */
+    color: white;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding: 2.5vw 2.5vw;
+  }
+  
+  .user-details {
+    text-align: left; /* Alinea el texto a la derecha */
+  }
+  
+  .logout-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: flex-start; /* Alinea el botón hacia la derecha */
+  }
+  
