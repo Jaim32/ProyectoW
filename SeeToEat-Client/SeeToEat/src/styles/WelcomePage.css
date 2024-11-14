@@ -33,7 +33,7 @@
 
 /* Contenedor de contenido principal */
 .welcome-content-father {
-  padding: 16.8vh 0 0vh 10vw;
+  padding: 16.8vh 0 0vh 11vw;
 }
 
 /* Contenido de bienvenida */
@@ -44,17 +44,17 @@
   max-height: 450px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #4f746e;
   color: white;
-  padding: 4vh;
+  padding: 1.5vh 1.5vw 9vh 1.5vw;
   border-radius: 15px;
   margin: 0 auto;
 }
 
 .welcome-content h2 {
-  font-size: 2rem;
+  font-size: 3.8rem;
   margin-bottom: 2vh;
   color: #1b1b1b;
   text-align: center;
@@ -65,7 +65,8 @@
   max-width: 90%;
   margin: 0 auto 2vh;
   color: #1b1b1b;
-  text-align: center;
+  text-align:justify;
+  padding: 0% 15% 0% 15%;
 }
 
 /* Botones */
