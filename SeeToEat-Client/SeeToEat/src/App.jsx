@@ -5,6 +5,7 @@ import WelcomePage from './pages/WelcomePage';
 import UserProfile_user from './pages/UserProfile_usear';
 import UserProfile from './pages/UserProfile';
 import LoginPage from './pages/LogIn';
+import RegistroPage from './pages/Registro';
 
 
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/welcome" element={<WelcomePage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegistroPage />} />
       </Routes>
     </Router>
   );
