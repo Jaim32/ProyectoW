@@ -4,6 +4,7 @@ import LandingPage from './pages/LandingPage';
 import WelcomePage from './pages/WelcomePage';
 import UserProfile_user from './pages/UserProfile_usear';
 import UserProfile from './pages/UserProfile';
+import LoginPage from './pages/LogIn';
 
 
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/welcome" element={<WelcomePage />} />
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
     </Router>
   );

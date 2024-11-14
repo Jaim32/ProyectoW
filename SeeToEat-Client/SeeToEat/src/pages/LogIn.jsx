@@ -1,0 +1,33 @@
+import React from 'react';
+import Header from '..//components/Header';
+import '../styles/LogIn.css'; // Usa los mismos estilos de WelcomePage
+import restaurantImage from '../assets/images/pizza.jpg'; // Cambia la imagen si lo deseas
+
+function LoginPage() {  
+  return (
+    <div className="welcome-page">
+      <Header />
+      <div className="welcome-content-container">
+        <div className="welcome-image-container">
+          <img src={restaurantImage} alt="Restaurante" className="welcome-image" />
+        </div>
+        <div className="welcome-content-father">
+          <div className="welcome-content">
+            <h2>Inicio de sesión</h2>
+            <form className="login-form">
+              <label htmlFor="username">Usuario</label>
+              <input type="text" id="username" className="login-input" placeholder="Ingrese su usuario" />
+              
+              <label htmlFor="password">Contraseña</label>
+              <input type="password" id="password" className="login-input" placeholder="Ingrese su contraseña" />
+              
+              <button type="submit" className="welcome-btn submit-btn">Iniciar sesión</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default LoginPage;
