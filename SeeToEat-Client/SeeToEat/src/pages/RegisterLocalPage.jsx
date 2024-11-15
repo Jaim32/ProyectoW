@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../components/Header';
-import '../styles/RegisterLocalPage.css';
 import Footer from '../components/Footer';
-
+import '../styles/RegisterLocalPage.css';
 
 function RegisterLocalPage() {
   const [menuItems, setMenuItems] = useState([]);
@@ -35,7 +34,7 @@ function RegisterLocalPage() {
   };
 
   return (
-    <div className="register-local-page">
+    <div className="register-local-page"> 
       <Header />
       <div className="form-container">
         <h2>Crea tu local en SeeToEat</h2>
@@ -52,7 +51,7 @@ function RegisterLocalPage() {
           <label htmlFor="foodType">Tipo de comida</label>
           <input type="text" id="foodType" className="form-input" placeholder="Ej. Italiana, Mexicana" />
           
-          <button type="button" onClick={openModal} className="add-item-btn">Agregar ítem de menú</button>
+          <button type="button" onClick={openModal} className="add-item-btn">Agregar ítem de menú</button >
           
           <button type="submit" className="submit-btn">Enviar Solicitud</button>
         </form>
@@ -94,7 +93,7 @@ function RegisterLocalPage() {
           </div>
         </div>
       )}
-
+      
       <Footer />
     </div>
   );

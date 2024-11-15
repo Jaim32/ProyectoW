@@ -31,12 +31,11 @@ function LoginPage() {
                 Continuar con Google
               </button>
             </form>
-            
           </div>
         </div>
       </div>
     </div>
   );
-}
+}   
 
 export default LoginPage;

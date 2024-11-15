@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-section">
-        <h3>Information</h3>
+        <h3>SeeToEat</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, 
           luctus nec ullamcorper mattis, pulvinar dapibus leo.
