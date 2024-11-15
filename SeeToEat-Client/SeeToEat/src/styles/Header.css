@@ -2,12 +2,14 @@
 .header {
   background-color: #1b1b1b;
   color: white;
-  padding: 10px 20px 10px 20px;
+  margin-top: -3px;
+  padding: 14px 20px 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  width: 97.9vw;
+  overflow-y: hidden;
+  width: 98.6vw;
+  min-height: 80px;
 }
 
 .logo {
