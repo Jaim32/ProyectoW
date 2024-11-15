@@ -1,11 +1,4 @@
-body, html, #root {
-    background-color: white;
-    margin: 0;
-    padding: 2px;
-    height: 100vh;
-    font-family: Arial, sans-serif;
-  }
-  
+
   /* Ajusta el contenedor principal para ocupar toda la pantalla */
   .landing-page {
     
