@@ -1,4 +1,6 @@
 /* Estilos generales de la página de bienvenida */
+html {
+  overflow-x: hidden;}
 .welcome-page {
     display: flex;
     flex-direction: column;
