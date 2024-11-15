@@ -1,13 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles/RestaurantCard.css";
-import { Route, useNavigate } from 'react-router-dom';
 
-const handleDetail = () =>{
-    Route('/restaurantDetail');
-}
-const RestaurantCard = ({ name, image,type,average }) => {
+const RestaurantCard = ({ name, image, type,average}) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/restaurantDetail');
+  };
   return (
-    <div className="restaurant-card" onClick={handleDetail}>
+    <div className="restaurant-card" onClick={handleClick}>
       <img src={image} alt={name} className="restaurant-image" />
       <h5 className="restaurant-type"> {type}</h5>
       <p className="restaurant-name">{name}

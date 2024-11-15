@@ -67,4 +67,3 @@ function CommentsBox() {
 }
 
 export default CommentsBox;
-    
