@@ -1,0 +1,31 @@
+.menu-section {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+  }
+  
+  .menu-item-details h4 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .menu-item-price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
