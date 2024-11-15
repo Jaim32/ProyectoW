@@ -16,6 +16,8 @@ function RestaurantDetailPage() {
       { name: "Hamburguesa", description: "Rica hamburguesa de carne", price: "$3.00" },
       { name: "Hamburguesa", description: "Rica hamburguesa de carne", price: "$3.00" },
       { name: "Hamburguesa", description: "Rica hamburguesa de carne", price: "$3.00" },
+      { name: "Hamburguesa", description: "Rica hamburguesa de carne", price: "$3.00" },
+      { name: "Hamburguesa", description: "Rica hamburguesa de carne", price: "$3.00" }
     ],
   };
 

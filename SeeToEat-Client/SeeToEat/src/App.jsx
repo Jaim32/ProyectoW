@@ -21,6 +21,9 @@ function App() {
         <Route path="/localR" element={<RegisterLocalPage />} />
         <Route path="/restaurant" element={<RestaurantPage />} />
         <Route path="/restaurantDetail" element={<RestaurantDetail />} />
+        <Route path="/user" element={<UserProfile_user />} />
+        <Route path="/UserProfile" element={<UserProfile />} />
+
       </Routes>
     </Router>
   );
