@@ -22,7 +22,6 @@ function Header() {
       <h1 className="logo">SeeToEat</h1>
       <nav className="nav">
         <a  onClick={handleRestaurants} href="#restaurantes">Restaurantes</a>
-        <a href="#explorar">Explorar</a>
         <button onClick={handleLogin} className="landing-btn login-btn">Iniciar Sesión</button>
         <button onClick={handleRegister} className="landing-btn register-btn">Registrarme</button>
       </nav>
