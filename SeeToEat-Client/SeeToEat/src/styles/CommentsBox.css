@@ -1,0 +1,115 @@
+.comments-box {
+  background-color: #4f746e;
+  color: white;
+  width: 25%;
+  max-height: 400px; /* Altura máxima para el contenedor de comentarios */
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  justify-content: space-between; /* Asegura que el botón se mantenga al final */
+}
+
+.comments-box h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.comments-list {
+  overflow-y: auto;
+  max-height: 250px; /* Limita la altura para que el contenido sea desplazable */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 5px; /* Espacio para el scroll */
+}
+
+/* Estilo para la barra de desplazamiento */
+.comments-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.comments-list::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.add-comment-btn {
+  background-color: #e4e4e4;
+  color: #333;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  align-self: center; /* Centra el botón horizontalmente */
+}
+
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: #4f746e;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.comment-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  resize: none;
+  height: 100px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.comment-btn {
+  background-color: #43B93A;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

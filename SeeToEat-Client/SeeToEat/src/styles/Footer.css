@@ -1,0 +1,50 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 45px; /* Reduce el padding para que el footer no sea tan alto */
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+  width: 102%; /* Asegura que el footer cubra toda la pantalla sin desbordarse */
+  box-sizing: border-box; 
+  overflow-y: hidden;/* Asegura que el padding no aumente el ancho total */
+}
+
+.footer-section {
+  flex: 1;
+  max-width: 300px;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px; /* Reduce el margen para ahorrar espacio */
+}
+
+.footer-section p {
+  font-size: 0.9rem;
+  line-height: 1.4; /* Reduce el line-height para minimizar la altura total */
+  color: #ccc;
+  margin: 5px 0; /* Agrega un margen vertical pequeño */
+}
+
+.social-icons {
+  display: flex;
+  gap: 8px; /* Reduce el espacio entre los íconos para ahorrar espacio */
+  margin-top: 8px;       
+}
+
+.social-icons img {
+  width: 20px; /* Reduce el tamaño de los íconos para hacer el footer más compacto */
+  height: 20px;
+  cursor: pointer;
+}
+
+.social-icons img:hover {
+  filter: brightness(0.8) invert(1); /* Efecto hover en los íconos */
+}
+
+.footer-section:nth-child(2) {
+  text-align: right;
+}

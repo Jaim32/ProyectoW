@@ -6,7 +6,7 @@ function Features() {
   return (
     <section className="features">
       <FeatureCard title="Busca" icon="🔍" />
-      <FeatureCard title="Ubica" icon="📍" />
+      <FeatureCard title="Ubicación" icon="📍" />
       <FeatureCard title="Adelante" icon="⏩" />
     </section>
   );

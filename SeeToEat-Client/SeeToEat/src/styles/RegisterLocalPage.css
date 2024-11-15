@@ -1,0 +1,179 @@
+/* Estilos generales de la página de registro de locales */
+.register-local-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  /* Contenedor del formulario */
+  .form-container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #4f746e;
+    border-radius: 15px;
+    padding: 3vh 2vw;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 5vh;
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    font-size: 2.5rem;
+    color: #1b1b1b;
+    margin-bottom: 3vh;
+  }
+  
+  /* Estilos para el formulario */
+  .local-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 1vh;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  textarea.form-input {
+    resize: none;
+    height: 8vh;
+  }
+  
+  .submit-btn {
+    background-color: #43B93A;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    padding: 1vh 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 50%;
+    margin: 2vh auto 0;
+  }
+  
+  .submit-btn:hover {
+    background-color: #36a026;
+  }
+
+  /* Estilos para el contenedor de agregar ítems de menú */
+.menu-items-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre el label y el textarea */
+  }
+  
+  .menu-label {
+    flex-shrink: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  textarea.form-input {
+    width: 100%;
+    resize: none;
+    height: 8vh;
+    border-radius: 50px;
+  }
+  
+  
+  /* Botón para agregar ítem de menú */
+.add-item-btn {
+  width: 100%;
+  padding: 1vh;
+  margin-top: 2vh;
+  font-size: 1rem;
+  background-color: #e4e4e4;
+  color: #333;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* Lista de ítems del menú */
+.menu-items-list {
+  margin-top: 3vh;
+  color:black
+}
+
+.menu-items-list h3 {
+  margin-bottom: 1vh;
+}
+
+.menu-item {
+  margin-bottom: 1vh;
+  padding: 1vh;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.menu-item-image {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 1vh;
+}
+
+/* Estilos para el modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: #4f746e;
+  padding: 2vh 2vw;
+  border-radius: 10px;
+  color: white;
+  width: 80%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal label {
+  font-size: 1rem;
+  margin-top: 1vh;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+
+.confirm-btn {
+  background-color: #43B93A;
+  color: white;
+  padding: 1vh 2vw;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: #e74c3c;
+  color: white;
+  padding: 1vh 2vw;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

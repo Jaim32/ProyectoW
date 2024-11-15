@@ -1,0 +1,22 @@
+/* src/styles/Comment.css */
+
+.comment {
+    background-color: #e4e4e4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .comment-user {
+    font-size: 0.8rem;
+    color: #7d7d7d;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+  
+  .comment-text {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+  }
+  

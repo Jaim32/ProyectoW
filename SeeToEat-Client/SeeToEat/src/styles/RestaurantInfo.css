@@ -1,0 +1,46 @@
+.restaurant-info {
+  background-color: #4f746e;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100.03vw; /* Ajustado para que ocupe todo el ancho disponible */
+  position: relative;
+  box-sizing: border-box;
+}
+
+.restaurant-logo-container {
+  width: 10vw; /* Aumento el tamaño del logo */
+  height: 15vh; /* Aumento la altura del logo */
+  padding: 2vw; /* Ajusto el padding para que no se corte el logo */
+  flex-shrink: 0; /* Evita que el logo se reduzca de tamaño */
+}
+
+.restaurant-logo {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.restaurant-details {
+  padding: 0vw 5vw;
+}
+
+.restaurant-details h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.location-btn {
+  background-color: #e4e4e4;
+  color: #333;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
