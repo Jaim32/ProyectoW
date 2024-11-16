@@ -3,6 +3,8 @@ import Header from '..//components/Header';
 import '../styles/LogIn.css'; // Usa los mismos estilos de WelcomePage
 import restaurantImage from '../assets/images/pizza.jpg'; // Cambia la imagen si lo deseas
 import googleIcon from '../assets/icons/google.png';
+import Footer from '../components/Footer';
+
 
 
 function RegistroPage() {  

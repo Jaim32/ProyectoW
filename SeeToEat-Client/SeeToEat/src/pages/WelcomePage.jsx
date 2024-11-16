@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import '../styles/WelcomePage.css';
 import pizzaImage from '../assets/images/pizza.jpg';
+import Footer from '../components/Footer';
+
 
 function WelcomePage() {
   const navigate = useNavigate();
