@@ -1,4 +1,4 @@
-const Usuario = require('../models/user.model');
+import Usuario from '../models/user.model'
 
 const crearUsuario = async (datos) => {
     const usuario = new Usuario(datos);

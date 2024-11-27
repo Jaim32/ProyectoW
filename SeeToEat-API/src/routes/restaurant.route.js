@@ -1,10 +1,17 @@
-const express = require('express');
-const restaurantController = require('../controllers/restaurant.controller');
+import express from 'express';
+import restaurantController from '../controllers/restaurant.controller.js';
+
+const { crearRestaurante, obtenerRestaurantes, obtenerRestaurantePorId, agregarComentario, agregarMenuItem } = restaurantController;
+
+import { authenticateToken } from '../middlewares/auth.js';
+
 
 const router = express.Router();
 
-router.post('/', restaurantController.crearRestaurante);
-router.get('/', restaurantController.obtenerRestaurantes);
-router.get('/:id', restaurantController.obtenerRestaurantePorId);
+router.post('/', authenticateToken, crearRestaurante);
+router.get('/', obtenerRestaurantes);
+router.get('/:id', obtenerRestaurantePorId);
+router.post('/:id/comentarios', authenticateToken, agregarComentario);
+router.post('/:id/menu', authenticateToken, agregarMenuItem);
 
-module.exports = router;
+export default router;

@@ -1,9 +1,9 @@
-const express = require('express');
-const { connectiondb } = require('./src/config/dbConnection.config');
-require('dotenv/config');
+import express from 'express'
+import { connectiondb } from './src/config/dbConnection.config.js';
+import 'dotenv/config';
+import userRoutes from './src/routes/user.route.js';
+import restaurantRoutes from './src/routes/restaurant.route.js';
 
-const userRoutes = require('./src/routes/user.route');
-const restaurantRoutes = require('./src/routes/restaurant.route');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
