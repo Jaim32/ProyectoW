@@ -4,6 +4,7 @@ import RestaurantInfo from '../components/RestaurantInfo';
 import CommentsBox from '../components/CommentsBox';
 import MenuList from '../components/MenuList';
 import '../styles/RestaurantDetailPage.css';
+import Footer from '../components/Footer';
 
 function RestaurantDetailPage() {
   const restaurant = {
@@ -38,6 +39,7 @@ function RestaurantDetailPage() {
           <MenuList menuItems={restaurant.menu} />
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

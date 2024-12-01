@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 const { Schema } = mongoose;
 
 const comentarioSchema = new Schema({
@@ -10,7 +10,7 @@ const comentarioSchema = new Schema({
     texto: {
         type: String,
         required: true
-    },
+    }
 }, {
     timestamps: true
 });
@@ -42,6 +42,10 @@ const restauranteSchema = new Schema({
         type: String,
         required: true
     },
+    ubicacionlink: {
+        type: String,
+        required: true
+    },
     horaApertura: {
         type: String,
         required: true
@@ -65,4 +69,7 @@ const restauranteSchema = new Schema({
     timestamps: true
 });
 
-module.exports = mongoose.model('Restaurante', restauranteSchema);
+const Restaurante = mongoose.model('Restaurante', restauranteSchema);
+
+// Exporta el modelo como default
+export default Restaurante;

@@ -6,7 +6,7 @@
   padding: 15px 45px; /* Reduce el padding para que el footer no sea tan alto */
   align-items: flex-start;
   font-family: Arial, sans-serif;
-  width: 102%; /* Asegura que el footer cubra toda la pantalla sin desbordarse */
+  min-width: 100.5vw; /* Asegura que el footer cubra toda la pantalla sin desbordarse */
   box-sizing: border-box; 
   overflow-y: hidden;/* Asegura que el padding no aumente el ancho total */
 }

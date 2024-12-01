@@ -10,6 +10,8 @@ import img5 from "../assets/images/elbajon.jpeg";
 import img6 from "../assets/images/punta.jpeg";
 import img7 from "../assets/images/charlie.jpeg";
 import img8 from "../assets/images/lacalaca.jpeg";
+import Footer from '../components/Footer';
+
 
 const restaurants = [
     { id: 1, name: "The Green Fork", image: img1, type: "VEGETARIANA",average:"$8" },
